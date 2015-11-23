@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="angularApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="angularApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="angularApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="angularApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Interactive Dashboard</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/lib/ncc-com-theme/css/ncc.com.theme.min.css">
+  <!-- endinject -->
+</head>
+<body>
+  <ui-view></ui-view>
+
+  <!-- inject:js -->
+  <script src="/lib/jquery/dist/jquery.min.js"></script>
+  <script src="/lib/highcharts/highcharts.js"></script>
+  <script src="/lib/moment/moment.js"></script>
+  <script src="/lib/angular/angular.js"></script>
+  <script src="/lib/angular-cookies/angular-cookies.js"></script>
+  <script src="/lib/angular-loader/angular-loader.js"></script>
+  <script src="/lib/angular-resource/angular-resource.js"></script>
+  <script src="/lib/angular-route/angular-route.js"></script>
+  <script src="/lib/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="/lib/ncc-com-highcharts/ncc.com.highcharts.min.js"></script>
+  <script src="/app.js"></script>
+  <script src="/dashboard/config.js"></script>
+  <script src="/dashboard/dashboardCtrl.js"></script>
+  <script src="/components/charts/lineChartConfig.js"></script>
+  <script src="/components/monitor/monitorCtrl.js"></script>
+  <script src="/components/monitor/monitorEntity.js"></script>
+  <script src="/components/monitor/config.js"></script>
+  <script src="/services/api/entities/account.js"></script>
+  <script src="/services/api/entities/monitor.js"></script>
+  <script src="/services/api/entities/monitorData.js"></script>
+  <script src="/services/api/apiManager.js"></script>
+  <script src="/services/api/apiTransformer.js"></script>
+  <script src="/services/eventTicker.js"></script>
+  <script src="/services/userSettings.js"></script>
+  <!-- endinject -->
+</body>
+</html>

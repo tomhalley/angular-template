@@ -1,0 +1,16 @@
+{
+  "js": {
+    "dev": [
+      /** Add lib sources here **/
+
+      /** Add app sources here **/
+
+      "app/app.js"
+    ],
+    "prod": []
+  },
+  "css": [
+    "app/app.css",
+    "app/lib/ncc-com-theme/css/ncc.com.theme.min.css"
+  ]
+}

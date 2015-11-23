@@ -1,0 +1,4 @@
+{
+  "registry": "http://jenkins1.int.webperfdev.com:5678",
+  "directory": "app/lib"
+}
